@@ -19,7 +19,7 @@ const Navbar = () => {
         </div>
 
         {/* Menu */}
-        <ul className='hidden md:flex text-lg'>
+        <ul className='hidden md:flex text-xl font-medium'>
             <li>
                 <Link  to="hero" smooth={true} duration={500}>
                     Home
