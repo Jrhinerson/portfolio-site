@@ -3,6 +3,8 @@ import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import About from '../components/About'
 import Work from '../components/Work'
+import Logo from '../images/Logo.png'
+import Contact from '../components/Contact'
 
 const index = () => {
   return (
@@ -11,11 +13,13 @@ const index = () => {
       <Hero />
       <About />
       <Work />
+      <Contact />
     </div>
   )
 }
 
 export const Head = () => 
-  <title>Jordan Rhinerson</title>
-  
-export default index
+  <><title>Jordan Rhinerson</title>
+  <link rel='icon' href={Logo} /></>
+
+    export default index 
