@@ -9,14 +9,14 @@ const Card = (props) => {
         <img className='rounded-t-lg'src={props.img} alt={props.alt} />
         
         {/* Title */}
-        <h2 className='text-2xl text-center font-extrabold rounded-b-lg border-b-2 border-b-yellow px-2 py-1'>{props.title}</h2>
+        <h2 className='text-2xl text-center font-extrabold rounded-b-lg border-b-[1px] border-b-yellow px-2 py-1'>{props.title}</h2>
         
         {/* Descriptor */}
         <p className='h-[50%] text-center py text-lightteal px-3 py-1'>{props.description}</p>
         
         {/* Stack */}
         <div className='text-center'>
-          <h3 className='w-full text-lg border-y-2 border-yellow'>Tech Stack</h3>
+          <h3 className='w-full text-lg border-y-[1px] border-yellow'>Tech Stack</h3>
           <span className='text-lightteal mx-auto'>{props.stack} </span>
         </div>
         

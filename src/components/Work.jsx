@@ -6,11 +6,11 @@ import {} from 'react-icons'
 
 const Work = () => {
   return (
-    <div name='work' className='w-full sm:h-[120vh]h-screen text-lightgray bg-darkteal px-16'>
+    <div name='work' className='w-full sm:h-[120vh]h-screen text-lightgray bg-darkteal px-16 pt-14'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 text-lightgray border-peach'>Work</p>
-          <p className='text-lg py-6'>// Check out some of my recent work.</p>
+          <p className='text-lg pt-6'>// Check out some of my recent work.</p>
         </div>
 
         {/* Grid Container */}
