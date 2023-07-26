@@ -14,7 +14,11 @@ module.exports = {
       yellow: 'rgb(240,204,80)',
       darkorange: 'rgb(235,126,77)'
     },
-    extend: {},
+    extend: {
+      boxShadow: {
+        'lrg': '0 0 7px 1px'
+      }
+    },
   },
   plugins: [],
 }

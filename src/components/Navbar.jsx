@@ -48,7 +48,7 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu */}
-        <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-medteal flex flex-col justify-center items-center'}>
+        <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-darkteal flex flex-col justify-center items-center'}>
             <li className='py-6 text-4xl'>
                 <Link onClick={handleClick} to="hero" smooth={true} duration={500}>
                     Home
@@ -57,11 +57,6 @@ const Navbar = () => {
             <li className='py-6 text-4xl'>
                 <Link onClick={handleClick} to="about" smooth={true} duration={500}>
                     About
-                </Link>
-            </li>
-            <li className='py-6 text-4xl'>
-                <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
-                    Skills
                 </Link>
             </li>
             <li className='py-6 text-4xl'>

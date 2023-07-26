@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div name='about' className='w-full h-[60vh] bg-darkteal text-lightgray'>
+    <div name='about' className='w-full h-[70vh] bg-darkteal text-lightgray'>
         <div className='flex flex-col justify-center items-center w-full h-full'>
         
             {/* Row 1 */}
@@ -19,7 +19,7 @@ const About = () => {
                     <p>Hi. I'm Jordan, nice to meet you. Please take a look around.</p>
                 </div>
                 <div>
-                    <p>I am passionate about building excellent software that improves the lives of those around me. I specialize in creating software for clients ranging from individuals and small-businesses all the way to large enterprise corporations. What would you do if you had a software expert available at your fingertips?
+                    <p className='text-2xl'>Welcome! I'm a Software Engineer with a focus and passion for web development. I grew up in retail as a 4th generation Jeweler and a passion to help businesses thrive through technology. I'm excited to show you some of the stuff I have been working on. Let's Go!
                     </p>
                 </div>
             </div>
