@@ -16,7 +16,7 @@ module.exports = {
     },
     extend: {
       boxShadow: {
-        'lrg': '0 0 7px 1px'
+        'lrg': '0 0 9px 1px',
       }
     },
   },
