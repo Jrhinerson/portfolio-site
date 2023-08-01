@@ -8,7 +8,8 @@ module.exports = {
     colors: {
       peach: 'rgb(244,162,140)',
       lightgray: 'rgb(200,221,218)',
-      darkteal: 'rgb(83,113,117)',
+      // darkteal: 'rgb(83,113,117)',
+      darkteal: 'rgb(60,133,139)',
       medteal: 'rgb(0,133,139)',
       lightteal: 'rgb(111,209,201)',
       yellow: 'rgb(240,204,80)',
