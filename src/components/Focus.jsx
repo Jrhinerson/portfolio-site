@@ -31,7 +31,7 @@ const Focus = () => {
                     </div>
                 </div>
                 <div>
-                    <p className='text-lg'>Currently, my focus is on gaining more hands-on experience with Tailwind on smaller projects such as this portfolio site or recreating The Unicorn Finders website to be more responsive and easier to maintain.<br /> Afterwards, all of my focus will be on returning to the e-commerce site for Lodan Jewelry Design Studio where I'll be utilizing Next.js, Tailwind, and .Net to create the bulk of the site.
+                    <p className='text-lg'>Currently, my focus is on gaining more hands-on experience with Tailwind on smaller projects such as this portfolio site or recreating The Unicorn Finders website to be more responsive and easier to maintain.<br /> Afterwards, all of my focus will be on returning to the e-commerce site for Lodan Jewelry Design Studio where I'll be utilizing Next.js, Tailwind, and .Net to create the site.
                     </p>
                 </div>
             </div>
