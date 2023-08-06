@@ -2,6 +2,7 @@ import React from 'react'
 import Card from './Card'
 import Lodan from '../images/Lodan.png'
 import TUF from '../images/TUF.png'
+import Portfolio from '../images/Portfolio.png'
 import {} from 'react-icons'
 
 const Work = () => {
@@ -16,6 +17,15 @@ const Work = () => {
         {/* Grid Container */}
         <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-12'>
           <Card 
+          img={Portfolio}
+          alt='Jordan Rhinerson Portfolio'
+          title='Personal Portfolio'
+          description='This site acts as my own professional portfolio. With an emphasis on clean yet fun design and a flexible tech stack, it has been designed in a way to allow for easy maintenance and future upgradability.'
+          stack='// Gatsby // Tailwind // JavaScript //'
+          code='https://github.com/Jrhinerson/portfolio-site'
+          site='https://jordanrhinerson.netlify.app/'
+          />
+          <Card 
           img={TUF}
           alt='The Unicorn Finders Website'
           title='The Unicorn Finders'
@@ -29,7 +39,8 @@ const Work = () => {
             alt='Lodan Jewelry Website'
             title='Lodan Jewelry'
             description='(In Process) Lodan Jewelry is a small jewelry store located in Owensboro, KY. I am currently in the midst of recreating their web presence and helping them establish an ecommerce site to expand their customer base beyond Owensboro.'
-            stack='// NEXT.JS // TAILWIND // .NET //'
+            stack='// NEXT.JS // TAILWIND // .NET // TYPESCRIPT //'
+            code='https://github.com/Jrhinerson/Artisan79-Prototype-VS'
           />
        </div>
       </div>

@@ -23,10 +23,10 @@ const Card = (props) => {
         {/* Button Container */}
         <div className='flex flex-wrap justify-around mt-auto px-1'>
           <a href={props.code}>
-            <button className='text-yellow text-md border-2 hover:bg-yellow hover:border-yellow hover:text-darkteal hover:-translate-y-1 duration-300 px-6 py-1 my-2 mx-auto flex items-center rounded-md'>Code</button>
+            <button className={props.code === undefined ? 'hidden': 'text-yellow text-md border-2 hover:bg-yellow hover:border-yellow hover:text-darkteal hover:-translate-y-1 duration-300 px-6 py-1 my-2 mx-auto flex items-center rounded-md'}>Code</button>
           </a>
           <a href={props.site}>
-            <button className='text-yellow text-md border-2 hover:bg-yellow hover:border-yellow hover:text-darkteal hover:-translate-y-1 duration-300 px-6 py-1 my-2 mx-auto flex items-center rounded-md'>Site</button>
+            <button className={props.site === undefined ? 'text-lightteal text-md border-2 px-6 py-1 my-2 mx-auto flex items-center rounded-md' : 'text-yellow text-md border-2 hover:bg-yellow hover:border-yellow hover:text-darkteal hover:-translate-y-1 duration-300 px-6 py-1 my-2 mx-auto flex items-center rounded-md'}>{props.site === undefined ? "Coming Soon" : "Site"}</button>
           </a>
             {/* <button className='text-yellow text-md border-2 hover:bg-yellow hover:border-yellow hover:text-darkteal hover:-translate-y-1 duration-300 px-6 py-1 my-2 mx-auto flex items-center rounded-md'>Video (Coming Soon)</button> */}
         </div>
