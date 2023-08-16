@@ -24,6 +24,7 @@ const Work = () => {
           stack='// Gatsby // Tailwind // JavaScript //'
           code='https://github.com/Jrhinerson/portfolio-site'
           site='https://jordanrhinerson.netlify.app/'
+          video='https://www.youtube.com/playlist?list=PL_qrAUKXfyRQSEUUZhXj0Anpgsa3yZ1_R'
           />
           <Card 
           img={TUF}
